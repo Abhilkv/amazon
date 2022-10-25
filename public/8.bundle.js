@@ -75,6 +75,8 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
+/* eslint-disable arrow-body-style */
+
 /* eslint-disable jsx-a11y/label-has-associated-control */
 
 /* eslint-disable react/button-has-type */
@@ -95,7 +97,8 @@ var Checkout = function Checkout(props) {
       removeFromFav = props.removeFromFav,
       placeOrder = props.placeOrder,
       orderId = props.orderId,
-      clearOrder = props.clearOrder;
+      clearOrder = props.clearOrder,
+      clearCart = props.clearCart;
   var details = Object(react_redux__WEBPACK_IMPORTED_MODULE_5__["useSelector"])(function (state) {
     return state.details;
   });
@@ -137,10 +140,23 @@ var Checkout = function Checkout(props) {
       setPopUp = _useState8[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    return function () {
+      clearOrder();
+      clearCart();
+    };
+  }, []);
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
     if (Object.keys(cart).length === 0) {
       history.push('/home');
     }
   }, [cart]);
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    if (orderId !== '') {
+      setPopUp(function (prev) {
+        return !prev;
+      });
+    }
+  }, [orderId]);
 
   var openNextBlock = function openNextBlock(field) {
     setShowBlocks(field);
@@ -207,17 +223,7 @@ var Checkout = function Checkout(props) {
     }));
   };
 
-  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
-    if (orderId !== '') {
-      setPopUp(function (prev) {
-        return !prev;
-      });
-    }
-  }, [orderId]);
-
   var redirectToHome = function redirectToHome() {
-    props.clearCart();
-    clearOrder();
     history.push('/home');
   };
 

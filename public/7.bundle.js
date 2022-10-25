@@ -9,7 +9,7 @@
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".container-3PzMC{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:50px 0px}.container-3PzMC .contentbox-W0r_a{width:90%;display:flex;align-items:center;justify-content:center;flex-direction:column}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w{display:flex;align-items:center;justify-content:center;justify-content:flex-start}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD{display:flex;align-items:center;justify-content:center;flex-direction:column;justify-content:space-between;align-items:flex-start;padding-left:30px}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .details-1adz4{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;height:100%}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .name-wjXNM{font-size:30px;font-weight:700;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .price-29DYn{font-size:25px;color:rgba(88,88,88,0.872)}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .price-29DYn span{text-decoration:line-through;font-size:18px;padding:0 10px}.container-3PzMC .contentbox-W0r_a .imageWrapper-2yHzN{display:flex;align-items:center;justify-content:center;border-radius:20px;background-color:#fff;min-width:200px;flex-direction:column;position:relative}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh{display:flex;margin-top:20px;justify-content:space-evenly}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh .cart-21UBa{background:#ff9f00;box-shadow:0 1px 2px 0 rgba(61,61,61,0.2);border:none;color:#fff;padding:18px 8px;border-radius:2px;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:500;min-width:150px;cursor:pointer;box-shadow:0 4px 6px 0 rgba(0,0,0,0.12);height:50px}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh .cart-21UBa img{margin-right:5px}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh .favourite-1dvNX{background:#fb641b;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);border:none;color:#fff;padding:18px 8px;border-radius:2px;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:500;min-width:150px;cursor:pointer;margin-left:20px;height:50px;box-shadow:0 4px 6px 0 rgba(0,0,0,0.12)}.container-3PzMC .contentbox-W0r_a .img_magnifier_glass-3L8J8{position:absolute;border:0.5px solid #919090;border-radius:50%;cursor:none;display:none;width:300px;height:300px;right:10px}.container-3PzMC .contentbox-W0r_a .image-11QzK{border-radius:20px;object-fit:scale-down;margin-right:5px;cursor:zoom-in}.container-3PzMC .contentbox-W0r_a .divider-2N92N{margin:20px;width:100%;border:0.1px solid rgba(61,60,60,0.15);box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3{display:flex;align-items:center;justify-content:center;align-items:flex-start;width:90%}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .verticalDivider-2fQW9{margin:20px;width:0px}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .description-1Waeb{display:flex;align-items:center;justify-content:center;flex-direction:column;align-items:centert;min-width:30%;font-size:16px;color:rgba(88,88,88,0.872);width:80%}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .title-3zq1J{color:black;font-size:22px;margin:20px 0px 10px 0}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .features-cFKrV{border-left:0.1px solid rgba(61,60,60,0.15);border-right:0px;padding-left:30px;width:36%}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .features-cFKrV li{margin:2px 0px}.container-3PzMC .tagsblock-1aYmH{display:flex;align-items:center;justify-content:center;flex-direction:column;align-items:flex-start;margin-bottom:20px}.container-3PzMC .tagsblock-1aYmH h4{font-size:16px;font-weight:600;color:#212121;margin:15px 0 5px}.container-3PzMC .tagsblock-1aYmH .tagLine-1_NeN{line-height:1.43;color:#212121;font-size:12px;margin-left:5px}.ripple-1YNBR{background-position:center;transition:background 0.8s}.ripple-1YNBR:hover{background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%}.ripple-1YNBR:active{background-color:#6eb9f7;background-size:100%;transition:background 0s}.features-cFKrV ul li{color:#878787;padding:2px 0px}@media only screen and (max-width: 600px){.detailsWrapper-21Q_w{flex-direction:column;justify-content:center;align-items:center;padding:0 50px}.detailsWrapper-21Q_w .nameBlock-1pcsD{padding-top:20px;padding-left:0px !important}.detailsWrapper-21Q_w .nameBlock-1pcsD .tagsblock-1aYmH span{white-space:wrap;text-overflow:ellipsis}.image-11QzK{max-width:355px}.descriptionBox-1fKx3{flex-direction:column}.descriptionBox-1fKx3 .description-1Waeb{align-items:flex-start !important;width:100% !important}.descriptionBox-1fKx3 .verticalDivider-2fQW9{height:1px !important;width:90% !important}.descriptionBox-1fKx3 .features-cFKrV,.descriptionBox-1fKx3 .features-cFKrV{width:100% !important;border-top:0.1px solid rgba(61,60,60,0.15);padding-left:0px !important;padding-top:30px;border-left:none !important}}\n", ""]);
+exports.push([module.i, ".container-3PzMC{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:50px 0px}.container-3PzMC .contentbox-W0r_a{width:90%;display:flex;align-items:center;justify-content:center;flex-direction:column}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w{display:flex;align-items:center;justify-content:center;justify-content:flex-start}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD{display:flex;align-items:center;justify-content:center;flex-direction:column;justify-content:space-between;align-items:flex-start;padding-left:30px}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .details-1adz4{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;height:100%}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .name-wjXNM{font-size:30px;font-weight:700;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .price-29DYn{font-size:25px;color:rgba(88,88,88,0.872)}.container-3PzMC .contentbox-W0r_a .detailsWrapper-21Q_w .nameBlock-1pcsD .price-29DYn span{text-decoration:line-through;font-size:18px;padding:0 10px}.container-3PzMC .contentbox-W0r_a .imageWrapper-2yHzN{display:flex;align-items:center;justify-content:center;border-radius:20px;background-color:#fff;min-width:200px;flex-direction:column;position:relative}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh{display:flex;margin-top:20px;justify-content:space-evenly}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh .cart-21UBa{background:#ff9f00;box-shadow:0 1px 2px 0 rgba(61,61,61,0.2);border:none;color:#fff;padding:18px 8px;border-radius:2px;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:500;min-width:150px;cursor:pointer;box-shadow:0 4px 6px 0 rgba(0,0,0,0.12);height:50px}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh .cart-21UBa img{margin-right:5px}.container-3PzMC .contentbox-W0r_a .actionButtons-35NBh .favourite-1dvNX{background:#fb641b;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);border:none;color:#fff;padding:18px 8px;border-radius:2px;font-size:14px;display:flex;align-items:center;justify-content:center;font-weight:500;min-width:150px;cursor:pointer;margin-left:20px;height:50px;box-shadow:0 4px 6px 0 rgba(0,0,0,0.12)}.container-3PzMC .contentbox-W0r_a .img_magnifier_glass-3L8J8{position:absolute;border:0.5px solid #919090;border-radius:50%;cursor:none;display:none;width:300px;height:300px;right:10px}.container-3PzMC .contentbox-W0r_a .image-11QzK{border-radius:20px;object-fit:scale-down;margin-right:5px;cursor:zoom-in}.container-3PzMC .contentbox-W0r_a .divider-2N92N{margin:20px;width:100%;border:0.1px solid rgba(61,60,60,0.15);box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3{display:flex;align-items:center;justify-content:center;align-items:flex-start;width:90%}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .verticalDivider-2fQW9{margin:20px;width:0px}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .description-1Waeb{display:flex;align-items:center;justify-content:center;flex-direction:column;align-items:centert;min-width:30%;font-size:16px;color:rgba(88,88,88,0.872);width:80%}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .title-3zq1J{color:black;font-size:22px;margin:20px 0px 10px 0}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .features-cFKrV{border-left:0.1px solid rgba(61,60,60,0.15);border-right:0px;padding-left:30px;width:36%}.container-3PzMC .contentbox-W0r_a .descriptionBox-1fKx3 .features-cFKrV li{margin:2px 0px}.container-3PzMC .tagsblock-1aYmH{display:flex;align-items:center;justify-content:center;flex-direction:column;align-items:flex-start;margin-bottom:20px}.container-3PzMC .tagsblock-1aYmH h4{font-size:16px;font-weight:600;color:#212121;margin:15px 0 5px}.container-3PzMC .tagsblock-1aYmH .tagLine-1_NeN{line-height:1.43;color:#212121;font-size:12px;margin-left:5px}.itemDetails-L05Ae{position:relative}.itemDetails-L05Ae .wishList-YeZiK{position:absolute;top:-50px;right:20px;display:block;cursor:pointer}.itemDetails-L05Ae .hideContent-3bEgq{display:none}.ripple-1YNBR{background-position:center;transition:background 0.8s}.ripple-1YNBR:hover{background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%}.ripple-1YNBR:active{background-color:#6eb9f7;background-size:100%;transition:background 0s}.features-cFKrV ul li{color:#878787;padding:2px 0px}@media only screen and (max-width: 600px){.detailsWrapper-21Q_w{flex-direction:column;justify-content:center;align-items:center;padding:0 50px}.detailsWrapper-21Q_w .nameBlock-1pcsD{padding-top:20px;padding-left:0px !important}.detailsWrapper-21Q_w .nameBlock-1pcsD .tagsblock-1aYmH span{white-space:wrap;text-overflow:ellipsis}.image-11QzK{max-width:355px}.descriptionBox-1fKx3{flex-direction:column}.descriptionBox-1fKx3 .description-1Waeb{align-items:flex-start !important;width:100% !important}.descriptionBox-1fKx3 .verticalDivider-2fQW9{height:1px !important;width:90% !important}.descriptionBox-1fKx3 .features-cFKrV,.descriptionBox-1fKx3 .features-cFKrV{width:100% !important;border-top:0.1px solid rgba(61,60,60,0.15);padding-left:0px !important;padding-top:30px;border-left:none !important}}\n", ""]);
 // Exports
 exports.locals = {
 	"container": "container-3PzMC",
@@ -33,6 +33,9 @@ exports.locals = {
 	"features": "features-cFKrV",
 	"tagsblock": "tagsblock-1aYmH",
 	"tagLine": "tagLine-1_NeN",
+	"itemDetails": "itemDetails-L05Ae",
+	"wishList": "wishList-YeZiK",
+	"hideContent": "hideContent-3bEgq",
 	"ripple": "ripple-1YNBR"
 };
 
@@ -51,10 +54,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var app_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! app/components */ "./src/js/components/index.js");
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "./src/js/containers/itemDetails/utils.js");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles.scss */ "./src/js/containers/itemDetails/styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var app_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/components */ "./src/js/components/index.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils */ "./src/js/containers/itemDetails/utils.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles.scss */ "./src/js/containers/itemDetails/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* eslint-disable no-underscore-dangle */
+
 
 
 
@@ -64,10 +70,12 @@ __webpack_require__.r(__webpack_exports__);
 var DetailsPage = function DetailsPage(props) {
   var getProductsInfo = props.getProductsInfo,
       productData = props.productData,
-      loading = props.loading;
+      loading = props.loading,
+      favourite = props.favourite;
+  var query = new URLSearchParams(props.location.search);
+  var productId = query.get('id');
+  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useHistory"])();
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    var query = new URLSearchParams(props.location.search);
-    var productId = query.get('id');
     getProductsInfo(productId);
   }, []);
 
@@ -76,35 +84,63 @@ var DetailsPage = function DetailsPage(props) {
     glass.style.display = 'none';
   };
 
+  var buyNowItem = function buyNowItem() {
+    props.addToCart(productData);
+    history.push('/checkout');
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.container
-  }, loading ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(app_components__WEBPACK_IMPORTED_MODULE_2__["Loader"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.contentbox
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.container
+  }, loading ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(app_components__WEBPACK_IMPORTED_MODULE_3__["Loader"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.contentbox
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.detailsWrapper
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.imageWrapper,
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.detailsWrapper
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.itemDetails
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.imageWrapper,
     onMouseMove: function onMouseMove(e) {
-      Object(_utils__WEBPACK_IMPORTED_MODULE_3__["default"])(e, 'myimage', 5);
+      Object(_utils__WEBPACK_IMPORTED_MODULE_4__["default"])(e, 'myimage', 5);
     },
     onMouseLeave: hideLens
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.img_magnifier_glass,
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.img_magnifier_glass,
     id: "img_magnifier_glass"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     id: "myimage",
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.image,
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.image,
     alt: productData.name,
     src: productData.avatar,
     height: 280
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.actionButtons
+  })), favourite && Object.keys(favourite).length > 0 && Object.keys(favourite).includes(productData._id) ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    id: "heart",
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.wishList,
+    alt: "heart",
+    src: "../../../assets/heartRed.svg",
+    onClick: function onClick() {
+      props.removeFromFav(productData._id);
+    },
+    role: "presentation",
+    height: 25,
+    width: 25
+  }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "favourite",
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.wishList,
+    src: "../../../assets/heartEmpty.svg",
+    onClick: function onClick() {
+      props.addToFavourite(productData);
+    },
+    role: "presentation",
+    height: 25,
+    width: 25
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.actionButtons
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     onClick: function onClick() {
       props.addToCart(productData);
     },
     type: "button",
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.cart
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cart
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     alt: "cart",
     src: "../../../assets/cart.svg",
@@ -112,21 +148,24 @@ var DetailsPage = function DetailsPage(props) {
     width: 20
   }), "ADD TO CART"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: "button",
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.favourite,
-    onClick: function onClick() {
-      props.addToFavourite(productData);
-    }
-  }, "Add to favourite"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.nameBlock
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.favourite,
+    onClick: buyNowItem
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "buy",
+    src: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMHY3LjdoMi4xVjE0TDcgNS42SDQuMkw3IDAiIGZpbGw9IiNGRkYiLz48L3N2Zz4=",
+    height: 20,
+    width: 20
+  }), "BUY NOW"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.nameBlock
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.details
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.details
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       display: 'flex',
       'flex-direction': 'column'
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.name
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.name
   }, productData.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       'margin-top': '10px'
@@ -145,14 +184,14 @@ var DetailsPage = function DetailsPage(props) {
       'flex-direction': 'column'
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.price
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.price
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "data:image/png;base64,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",
     height: 15,
     width: 10,
     alt: "temp"
   }), (Number(productData.price) * ((100 - productData.discount) / 100).toFixed(2)).toFixed(2), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.price
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.price
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "data:image/png;base64,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",
     height: 10,
@@ -173,7 +212,7 @@ var DetailsPage = function DetailsPage(props) {
       'margin-top': '10px'
     }
   }, "upto 5% back with Amazon pay ICICI card ")), productData.tags && productData.tags.length > 0 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.tagsblock
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.tagsblock
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Avaiable Offers"), productData.tags.map(function (tags) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       alt: "cart",
@@ -181,13 +220,13 @@ var DetailsPage = function DetailsPage(props) {
       height: 10,
       width: 10
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.tagLine
+      className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.tagLine
     }, tags));
   })), productData.services && productData.services.length > 0 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.tagsblock
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.tagsblock
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, productData.services.map(function (services) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.tagLine
+      className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.tagLine
     }, services));
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     style: {
@@ -198,27 +237,27 @@ var DetailsPage = function DetailsPage(props) {
       color: 'gray'
     }
   }, ' ', productData.promoLine, ' | ', productData.offerText)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.divider
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.divider
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.descriptionBox
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.descriptionBox
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.description
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.description
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.title
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.title
   }, "Description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.description
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.description
   }, productData.description)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.verticalDivider
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.verticalDivider
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.features
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.features
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Highlights"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, productData.features && productData.features.map(function (feature) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       key: feature
     }, feature);
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.verticalDivider
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.verticalDivider
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_scss__WEBPACK_IMPORTED_MODULE_4___default.a.features
+    className: _styles_scss__WEBPACK_IMPORTED_MODULE_5___default.a.features
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Warranty"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, productData.warranty && productData.warranty.map(function (warranty) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       key: warranty
@@ -229,11 +268,13 @@ var DetailsPage = function DetailsPage(props) {
 DetailsPage.propTypes = {
   getProductsInfo: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
   productData: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape,
-  loading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool
+  loading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+  favourite: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape()
 };
 DetailsPage.defaultProps = {
   productData: {},
-  loading: false
+  loading: false,
+  favourite: {}
 };
 /* harmony default export */ __webpack_exports__["default"] = (DetailsPage);
 
@@ -261,7 +302,8 @@ var mapStateToProps = function mapStateToProps(_ref) {
   var details = _ref.details;
   return {
     productData: details.productData,
-    loading: details.loading
+    loading: details.loading,
+    favourite: details.favourite
   };
 };
 
@@ -278,6 +320,12 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
       dispatch({
         type: _actions__WEBPACK_IMPORTED_MODULE_1__["VIEW_PAGE_ADD_TO_FAVOURITE"],
         item: item
+      });
+    },
+    removeFromFav: function removeFromFav(id) {
+      dispatch({
+        type: _actions__WEBPACK_IMPORTED_MODULE_1__["VIEW_PAGE_REMOVE_ITEM_FAVOURITE"],
+        id: id
       });
     }
   };
