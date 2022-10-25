@@ -33,7 +33,7 @@
     "coverage-summary": "cross-env istanbul report --root ./ --include reports/coverage/coverage-final.json --dir ./reports json-summary",
     "storybook": "start-storybook -p 9001",
     "serve": "cross-env NODE_CONFIG_DIR=./config/env webpack-dev-server --config ./webpack.config.js",
-    "build": "npm run clean && cross-env NODE_CONFIG_DIR=./config/env NODE_ENV=production webpack --config webpack.config.production.js --optimize-minimize"
+    "build": "cross-env NODE_CONFIG_DIR=./config/env NODE_ENV=production webpack --config ./webpack.config.js --optimize-minimize"
   },
   "author": "",
   "license": "ISC",
