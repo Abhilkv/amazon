@@ -201,6 +201,23 @@
   }
 }
 
+.itemDetails {
+  position: relative;
+
+  .wishList {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .hideContent {
+    display: none;
+  }
+}
+
+
 .ripple {
   background-position: center;
   transition: background 0.8s;

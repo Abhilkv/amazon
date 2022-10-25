@@ -1,5 +1,7 @@
+/* eslint-disable no-underscore-dangle */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useHistory } from 'react-router-dom';
 
 import { Loader } from 'app/components';
 import Magnify from './utils';
@@ -8,12 +10,12 @@ import Magnify from './utils';
 import styles from './styles.scss';
 
 const DetailsPage = (props) => {
-  const { getProductsInfo, productData, loading } = props;
-
+  const { getProductsInfo, productData, loading, favourite } = props;
+  const query = new URLSearchParams(props.location.search);
+  const productId = query.get('id');
+  const history = useHistory();
 
   useEffect(() => {
-    const query = new URLSearchParams(props.location.search);
-    const productId = query.get('id');
     getProductsInfo(productId);
   }, []);
 
@@ -22,17 +24,42 @@ const DetailsPage = (props) => {
     glass.style.display = 'none';
   };
 
+  const buyNowItem = () => {
+    props.addToCart(productData);
+    history.push('/checkout');
+  };
+
   return (
     <div className={styles.container}>
       {loading ? <Loader /> : (
         <div className={styles.contentbox}>
           <div className={styles.detailsWrapper}>
-            <div>
+            <div className={styles.itemDetails}>
               <div className={styles.imageWrapper} onMouseMove={(e) => { Magnify(e, 'myimage', 5); }} onMouseLeave={hideLens}>
                 <div className={styles.img_magnifier_glass} id="img_magnifier_glass" />
                 <img id="myimage" className={styles.image} alt={productData.name} src={productData.avatar} height={280} />
-
               </div>
+              {favourite && (Object.keys(favourite)).length > 0 && (Object.keys(favourite)).includes(productData._id) ? (
+                <img
+                  id="heart"
+                  className={styles.wishList}
+                  alt="heart"
+                  src="../../../assets/heartRed.svg"
+                  onClick={() => { props.removeFromFav(productData._id); }}
+                  role="presentation"
+                  height={25}
+                  width={25}
+                />) : (
+                  <img
+                    alt="favourite"
+                    className={styles.wishList}
+                    src="../../../assets/heartEmpty.svg"
+                    onClick={() => { props.addToFavourite(productData); }}
+                    role="presentation"
+                    height={25}
+                    width={25}
+                  />
+              )}
               <div className={styles.actionButtons}>
                 <button onClick={() => { props.addToCart(productData); }} type="button" className={styles.cart}>
                   <img
@@ -43,8 +70,14 @@ const DetailsPage = (props) => {
                   />
                   ADD TO CART
                 </button>
-                <button type="button" className={styles.favourite} onClick={() => { props.addToFavourite(productData); }}>
-                  Add to favourite
+                <button type="button" className={styles.favourite} onClick={buyNowItem}>
+                  <img
+                    alt="buy"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMHY3LjdoMi4xVjE0TDcgNS42SDQuMkw3IDAiIGZpbGw9IiNGRkYiLz48L3N2Zz4="
+                    height={20}
+                    width={20}
+                  />
+                  BUY NOW
                 </button>
               </div>
             </div>
@@ -157,12 +190,14 @@ const DetailsPage = (props) => {
 DetailsPage.propTypes = {
   getProductsInfo: PropTypes.func.isRequired,
   productData: PropTypes.shape,
-  loading: PropTypes.bool
+  loading: PropTypes.bool,
+  favourite: PropTypes.shape()
 };
 
 DetailsPage.defaultProps = {
   productData: {},
-  loading: false
+  loading: false,
+  favourite: {}
 };
 
 export default DetailsPage;

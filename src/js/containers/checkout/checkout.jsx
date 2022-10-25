@@ -1,3 +1,4 @@
+/* eslint-disable arrow-body-style */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/prop-types */
@@ -21,7 +22,7 @@ import styles from './styles.scss';
 
 const Checkout = (props) => {
   const { cart,
-    favourite, addToCart, removeFromFav, placeOrder, orderId, clearOrder } = props;
+    favourite, addToCart, removeFromFav, placeOrder, orderId, clearOrder, clearCart } = props;
   const details = useSelector((state) => state.details);
   const history = useHistory();
   const [showBlocks, setShowBlocks] = useState('cart');
@@ -29,11 +30,25 @@ const Checkout = (props) => {
   const [dirtyFields, setDirtyFields] = useState({ name: false, phone: false, address: false, city: false, state: false, email: false });
   const [showPopup, setPopUp] = useState(false);
 
+
+  useEffect(() => {
+    return () => {
+      clearOrder();
+      clearCart();
+    };
+  }, []);
+
   useEffect(() => {
     if ((Object.keys(cart)).length === 0) {
       history.push('/home');
     }
   }, [cart]);
+
+  useEffect(() => {
+    if (orderId !== '') {
+      setPopUp((prev) => !prev);
+    }
+  }, [orderId]);
 
   const openNextBlock = (field) => {
     setShowBlocks(field);
@@ -87,15 +102,8 @@ const Checkout = (props) => {
     placeOrder(JSON.stringify({ items: cart, userData: addressData, payment: 'Cash on delivery', amount: (sum()) }));
   };
 
-  useEffect(() => {
-    if (orderId !== '') {
-      setPopUp((prev) => !prev);
-    }
-  }, [orderId]);
 
   const redirectToHome = () => {
-    props.clearCart();
-    clearOrder();
     history.push('/home');
   };
 
