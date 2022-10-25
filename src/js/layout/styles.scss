@@ -1,0 +1,408 @@
+@import "../theme//variables.scss";
+
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $primaryBGColor;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  width: 95%;
+  height: calc(100% - 400px);
+  min-height: calc(100vh - 400px);
+  .filter {
+    width: 100px;
+  }
+}
+
+@mixin flexProperty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #2874f0;
+  height: 70px;
+  width: 100%;
+  @include flexProperty;
+
+  .logoBlock {
+    @include flexProperty;
+    justify-content: space-between;
+    width: 80%;
+
+    .search {
+      width: 70%;
+      @include flexProperty;
+    }
+
+    .search2 {
+      width: 30%;
+      @include flexProperty;
+      margin-right: 25px;
+      justify-content: flex-start;
+    }
+
+    .cartBlock {
+      margin-left: 40px;
+      @include flexProperty;
+      color: #fff;
+      font-size: 14px;
+      position: relative;
+      cursor: pointer;
+
+      .cartCount {
+        text-align: center;
+        position: absolute;
+        top: -28px;
+        left: 6px;
+        background: red;
+        padding: 2px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+      }
+
+      span {
+        margin-left: 3px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+
+    .inputWrapper {
+      width: 50%;
+      background-color: #fff;
+      padding: 2px 8px 2px 0;
+      margin-left: 15px;
+      @include flexProperty;
+
+      .searchBarHeader {
+        height: 40px;
+        width: 90%;
+        margin-right:  10px;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}
+
+.createWrapper {
+  min-width: 100%;
+  @include flexProperty;
+  margin-top: 5px;
+}
+
+.footer {
+  background-color: #172337;
+  width: 100%;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .mainFooter {
+    transform: scale(0.8);
+    display: block;
+  }
+  .about {
+    display: none;
+  }
+}
+
+
+.filter {
+  min-width: 290px;
+
+
+  .filtersBox {
+    border-radius: 10px;
+    background: #fff;
+    padding: 5px 5px 15px 5px;
+    margin: 30px 0px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .filterTitle {
+    @include flexProperty;
+    justify-content: space-between;
+    min-width: 250px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+    h3 {
+      font-size: 18px;
+    }
+
+    span {
+      cursor: pointer;
+      color: #2874f0;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  }
+}
+
+.productsWrapper {
+  // border-left: 1px solid rgba(0, 0, 0, 0.15);
+  // border-right: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  padding: 5px;
+  margin: 30px 15px;
+  min-width: calc(100% - 380px);
+}
+
+.boxContainer {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+
+  .searchBar {
+    width: 96% !important;
+    margin-top: 20px;
+    padding: 5px;
+    height: 30px !important;
+    font-size: 14px;
+    border-radius: 15px !important; 
+    outline: none;
+    border: 1px solid #e0e0e0;
+  }
+
+  .category {
+    width: 74% !important;
+    height: 35px !important;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 15px !important; 
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid #e0e0e0;
+  }
+
+}
+
+.starWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 100;
+  color: #5f99f7;
+  span {
+    margin-left: 5px;
+  }
+}
+
+.priceSlider {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  padding: 0 10px;
+  min-width: 260px;
+
+  .priceField {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    width: 280px;
+  }
+  .slider {
+    width: 100%  !important;
+  }
+
+}
+
+.sliderWrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+  .priceField {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+  .slider {
+    width: 100%  !important;
+  }
+}
+
+.genderTitle {
+  font-weight: 600;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navContainer {
+  background-color: #fff;
+  height: 30px;
+  width: 100%;
+  box-shadow:  0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  padding: 5px;
+  @include flexProperty;
+  justify-content: space-around;
+
+  .navBar {    
+    height: 30px;
+    width: 90%;
+    @include flexProperty;
+    justify-content: space-around;
+
+
+  
+    span {
+      @include flexProperty;
+
+      &:hover {
+        color: #5f99f7;
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 6.5px;
+	left: 5.8px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 150px;
+    .logoBlock {
+      width: 95%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .search {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .inputWrapper{
+          width: 100%;
+          margin: 7px 0px;
+        }
+      }
+      .search2 {
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+        .cartBlock {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .navContainer{
+    overflow-y: scroll;
+    padding-left: 120px;
+    .navBar {
+      span {
+        font-size: 10px;
+        margin-left: 15px;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .filter {
+      width: 100%;
+      .sliderWrapper {
+        width: 100%;
+      }
+      .priceSlider {
+        width: 90%;
+      }
+    }
+  }
+
+  
+.footer {
+  .mainFooter {
+    display: none;
+  }
+  .about {
+    display: block;
+  }
+}
+
+}

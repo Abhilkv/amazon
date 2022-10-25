@@ -1,0 +1,112 @@
+@import '../../theme/variables.scss';
+
+@mixin flexBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCard {
+  @include flexBox;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 20px 15px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none !important;
+  min-width: 230px;
+
+  .image {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  &:hover {
+    background-color: $white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    .image {
+      transform: scale(1.1);
+    }
+
+    .name {
+      height: auto !important;
+    }
+  }
+
+  .imageBlock {
+    @include flexBox;
+    flex-direction: column;
+    width: 100%;
+    background-color: $white;
+    border-radius: 20px;
+    padding: 20px 0;
+  }
+
+  .image {
+    border-radius: 20px;
+    object-fit: scale-down
+  }
+
+  .brand {
+    color: #878787;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .name {
+    width: 180px;
+    text-align: left;
+    padding-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $primaryFontColor;
+  }
+
+  .price {
+    width: 100%;
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+
+    span {
+      text-decoration: line-through;
+      font-size: 10px;
+      color: gray;
+      padding-left: 5px;
+    }
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    height: 150px;
+    width: 100%;
+
+    .stars {
+      color: white;
+      background-color: #46d646;
+      border-radius: 5px;
+      height: 15px;
+      padding: 2px 3px;
+      max-width: 25px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    .orange {
+      background-color: rgb(248, 181, 58);
+    }
+
+    .red {
+      background-color: rgb(248, 76, 76);
+    }
+  }
+}

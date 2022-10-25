@@ -1,0 +1,2 @@
+export const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiaGlsa25pQGdtYWlsLmNvbSIsImdpdGh1YiI6Imh0dHBzOi8vZ2l0aHViLmNvbS9BYmhpbGt2IiwiaWF0IjoxNjY1ODkyMDQyLCJleHAiOjE2NjYzMjQwNDJ9.7ZuXZUOd56wFzvZgWqcRHkadFhlRYTam7aaD1s6iOnU';
+export const email = 'abhilkni@gmail.com';

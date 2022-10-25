@@ -1,0 +1,192 @@
+@import "../../theme/variables.scss";
+
+@mixin flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  @include flexBox;
+  flex-direction: column;
+  overflow: hidden !important;
+  width: 100vw;  
+  overflow-x: hidden !important;
+
+  .navBar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+
+    .navs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      span {
+        font-weight: 500;
+      }
+
+      &:hover {
+        cursor: pointer;
+        color: #2874f0;
+      }
+    }
+  }
+
+  .banner {
+    width: 95%;
+  }
+
+  .carouselDiv {
+    width: 95%;
+    margin: 30px 0px;
+
+    .carouselImage {
+      transition: transform 0.5s ease-in-out;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .redirectImage {
+    transition: transform 0.5s ease-in-out;
+      &:hover {
+        transform: scale(0.95);
+      }
+  }
+
+  .card {
+    margin: 15px;
+    width: 70%;
+    @include flexBox();
+    cursor: pointer;
+      
+    .wrapper {
+      border: 3px solid rgb(230, 190, 62);
+      position: relative;
+      @include flexBox();
+      border-radius: 50px;
+      z-index: 100;
+      background-color: white;
+      padding: 10px 50px;
+      box-shadow: 0px 5px 20px 5px rgb(230, 190, 62);
+    }
+
+    .offer {
+      @include flexBox();
+      flex-direction: column;
+      align-items:  flex-start;
+      padding: 0px 10px;
+
+      span {
+        font-size: 28px;
+      }
+
+      .offerPromo{
+        font-size: 38px;
+        font-weight: bold;
+        padding: 10px 0px;
+      }
+
+    }
+
+    .tandc {
+      font-size: 16px;
+      transform: rotate(-90deg);
+    }
+
+    .arrowWrapper {
+      width: 50px;
+      height: 50px;
+      @include flexBox;
+      background-color: rgb(230, 190, 62);
+      border-radius: 50%;
+    }
+  }
+
+  .box {
+    @include flexBox;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px 0px;
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .border {
+    margin: 30px 0px;
+    width: 95%;
+    height: 0.5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.8);
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    .navBar {
+      height: auto;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+      .navs {
+        padding: 5px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+
+    .card {
+      .wrapper {
+        padding: 10px 30px !important;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+        .offer {
+          span {
+            font-size: 16px;
+          }
+          .offerPromo {
+            font-size: 16px;
+          }
+        }
+        .tandc {
+          font-size: 14px;
+        }
+        .arrowWrapper {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .box {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        height: 190px;
+        width: 370px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+ 
+}

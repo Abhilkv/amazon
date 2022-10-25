@@ -1,0 +1,168 @@
+@import '../../theme/variables.scss';
+
+@mixin flexBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCard {
+  @include flexBox;
+  cursor: pointer;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: flex-start;
+  margin: 20px 5px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none !important;
+  width: 100%;
+
+
+  .imageBlock {
+    @include flexBox;
+    width: 100%;
+    background-color: $white;
+    border-radius: 20px;
+    padding: 20px 0;
+  }
+
+  .image {
+    border-radius: 20px;
+    object-fit: scale-down
+  }
+
+  .name {
+    width: 180px;
+    height: 34px;
+    text-align: left;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-size: 22px;
+    overflow: hidden;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    color: $primaryFontColor;
+  }
+
+  .price {
+    width: 100%;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: $primaryFontColor;
+    font-size: 24px;
+
+    span {
+      text-decoration: line-through;
+      font-size: 15px;
+      color: gray;
+      padding-left: 5px;
+    }
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    height: 175px;
+    width: 100%;
+  }
+}
+
+.check {
+  @include flexBox;
+
+  .qtyBlock {
+    padding: 10px;
+    @include flexBox;
+  
+    .add {
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(#fff,#f9f9f9);
+      border: 1px solid #c2c2c2;
+      font-size: 16px;
+      border-radius: 50%;
+      cursor: pointer;
+      @include flexBox;
+      justify-content: center;
+    }
+  
+    .qty{
+      width: 50px;
+      height: 22px;
+      border-radius: 2px;
+      background-color: #fff;
+      border: 1px solid #c2c2c2;
+      margin: 0 5px;
+      @include flexBox;
+      justify-content: center;
+    }
+  
+    .reduce {
+      color: #c2c2c2 !important;
+      border-color: #e0e0e0 !important;
+      cursor: auto;
+    }
+  }
+
+  .save {
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 25px;
+    color: #212121;
+    line-height: 1.4;
+    padding-left: 24px;
+    background: transparent;
+    border: none;
+    &:hover {
+      color: #2874f0 !important;
+    }
+  }
+
+  .remove {
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: none;
+    outline: 0;
+    font-size: 16px;
+    color: #212121;
+    line-height: 1.4;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 25px;
+    background: transparent;
+    border: none;
+    &:hover {
+      color: #2874f0 !important;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .imageBlock {
+    flex-direction: column !important;
+  }
+
+
+  .check {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+  }
+
+  .details {
+    width: auto !important;
+  }
+
+}
